@@ -1,0 +1,35 @@
+@import 'http://at.alicdn.com/t/font_1937846_21sum0e2hxl.css';
+
+@font-face {
+    font-family: PingFang-SC-Medium;
+    src: url('../font/PingFang Medium_0.ttf');
+}
+@font-face {
+    font-family: PingFang-SC-Heavy;
+    src: url('../font/PingFang Bold.ttf');
+}
+@font-face {
+    font-family: PingFang-SC-ExtraLight;
+    src: url('../font/PingFang ExtraLight.ttf');
+}
+@font-face {
+    font-family: PingFang-SC-Heavy;
+    src: url('../font/PingFang Heavy.ttf');
+}
+@font-face {
+    font-family: PingFang-SC-Light;
+    src: url('../font/PingFang Light_0.ttf');
+}
+@font-face {
+    font-family: PingFang-SC-Regular;
+    src: url('../font/PingFang Regular_0.ttf');
+}
+@font-face {
+    font-family: Bender-Light;
+    font-size: 30px;
+    src: url('../font/BenderLight.woff.ttf');
+}
+/* @font-face {
+    font-family: Helvetica;
+    src: url('../font/Helvetica.TTF');
+} */

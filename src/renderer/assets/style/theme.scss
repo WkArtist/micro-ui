@@ -1,0 +1,46 @@
+
+$boxContentTitle: rgba(76,102,128,0.5); //盒子内容hover
+$boxContentBorder: rgba(255,255,255,0.25); //盒子内容中的border
+$numberTextColor: #FFBB33; 
+
+$cyan: #2ED6E6; //青色字体 16进制--> rgb(46,214,230)
+$blue: #007AFF; //蓝色字体
+$yellow: #FFBB33; //黄色字体
+$green: #14C714; //绿色字体
+$grey: rgba(217,217,217,0.6); //灰色字体
+$red: #D95771; //红色字体 
+
+//滚动条
+$scrollbarTrackColor: rgba(142, 142, 142, 0.5);//滚动条底色
+$scrollbarBarColor: #2ED6E6;//滚动条滑块色
+
+//框体
+$boxBg: rgba(0,0,0,0.2); //盒子背景
+$boxTitle: rgba(0,0,0,0.6); //盒子标题
+$boxContent: rgba(0,0,0,0.5); //盒子内容
+$paddingSize: 15px; //内容框上下左右间距
+
+//标签
+$tagBg: rgba(217,217,217,0.2); //标签底色
+$tagColor: rgb(217,217,217); //标签字体颜色
+$tagBgActive: rgba(46,214,230,0.2); //标签激活后底色
+$tagColorActive: rgb(46,214,230); //标签激活后字体颜色
+
+//字体
+$titleFontSize: 18px; //标题字体大小
+$titleColor: #FFFFFF; //标题颜色
+$unitFontSize: 12px; //单位字体大小
+$unitColor: #8E8E8E; //单位颜色
+$keyNumberFontSize: 20px; //重要数值字体大小
+$keyNumberColor: #2ED6E6; //重要数值颜色
+
+.important-number{
+    font-size: $keyNumberFontSize;
+    font-weight: bolder;
+    color: $keyNumberColor;
+    margin-right: 5px;
+}
+.unit{
+    font-size: $unitFontSize;
+    color: $unitColor;
+}
