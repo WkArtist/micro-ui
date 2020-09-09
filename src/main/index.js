@@ -21,7 +21,6 @@ server.get('/test', (req, res) => {
   res.send('<h1>服务正常</h1>')
 })
 io.on('connection', (socket) => {
-  console.log('a user connected')
   socket.on('messageClient', (msg) => {
     mainWindow.show()
     setTimeout(() => {
@@ -54,14 +53,11 @@ function getScreenSize () {
 };
 
 function createWindow () {
-  /**
-   * Initial window options
-   */
   getScreenSize()
   mainWindow = new BrowserWindow({
     // x: screenSize.x + 1475,
     // y: screenSize.y + 165,
-    x: screenSize.x + 5475,
+    x: screenSize.x + 1475,
     y: screenSize.y + 165,
     height: 640,
     useContentSize: true,
@@ -110,23 +106,3 @@ app.on('activate', () => {
 let pluginName = app.getPath('pepperFlashSystemPlugin')
 // pepflashplayer = path.join(__dirname, 'PepperFlashPlayer.plugin');
 app.commandLine.appendSwitch('ppapi-flash-path', pluginName)
-
-/**
- * Auto Updater
- *
- * Uncomment the following code below and install `electron-updater` to
- * support auto updating. Code Signing with a valid certificate is required.
- * https://simulatedgreg.gitbooks.io/electron-vue/content/en/using-electron-builder.html#auto-updating
- */
-
-/*
-import { autoUpdater } from 'electron-updater'
-
-autoUpdater.on('update-downloaded', () => {
-  autoUpdater.quitAndInstall()
-})
-
-app.on('ready', () => {
-  if (process.env.NODE_ENV === 'production') autoUpdater.checkForUpdates()
-})
- */

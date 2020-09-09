@@ -59,6 +59,7 @@
     "cors": "^2.8.5",
     "element-ui": "^2.13.2",
     "express": "^4.17.1",
+    "flv.js": "^1.5.0",
     "socket.io": "^2.3.0",
     "utf-8-validate": "^5.0.2",
     "videojs-flash": "^2.2.1",
